@@ -181,7 +181,7 @@ proxy-groups:
     interval: 120
     tolerance: 200
     include-all: false
-    exclude: "Hong Kong|HK|China|CN"
+    exclude: "Hong Kong|HK×|China|CN"
     timeout: 3000
     url: "https://www.google.com/generate_204"
     lazy: true
