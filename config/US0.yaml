@@ -180,8 +180,8 @@ proxy-groups:
     type: "url-test"
     interval: 120
     tolerance: 200
-    include-all: false
-    exclude: "Hong Kong|HK×|China|CN"
+    include-all: true
+    exclude: "Hong Kong|hk*|China|中国|Russia|Pakistan"
     timeout: 3000
     url: "https://www.google.com/generate_204"
     lazy: true
