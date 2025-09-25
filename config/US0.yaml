@@ -179,7 +179,7 @@ proxy-groups:
   - name: "延迟选优"
     type: "url-test"
     include-all: true
-    filter: "^(?!.*([Hh][Kk]|[Cc]hina|中国|俄罗斯|Hong Kong|hong kong|HKPIS)).*"
+    filter: "^(?!.*(HK|HKPIS|Hong Kong|China|中国|Rusia|RS|俄罗斯)).*"
     interval: 120
     tolerance: 200
     timeout: 3000
