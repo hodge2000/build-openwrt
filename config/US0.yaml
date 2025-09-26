@@ -179,7 +179,7 @@ proxy-groups:
   - name: "延迟选优"
     type: "url-test"
     include-all: true
-    filter: "^(?!.*(HK|hk|Hong|China|中国|rusia|俄罗斯)).*" 
+    filter: "^(?!.*(HK|hk|Hong|hong|China|中国|rusia|俄罗斯)).*" 
 #   filter: "^(?!.*(HK|Hong Kong|hk|China|中国|俄罗斯)).*"
     interval: 120
     tolerance: 200
@@ -258,7 +258,7 @@ proxy-groups:
   - name: "ChatGPT"
     type: "select"
     include-all: true
-    proxies: ["节点选择", "延迟选优", "故障转移", "美国节点优选"]
+    proxies: ["美国节点优选", "节点选择", "延迟选优", "故障转移"]
     interval: 300
     timeout: 3000
     url: "https://www.google.com/generate_204"
@@ -268,7 +268,7 @@ proxy-groups:
     icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/chatgpt.svg"
   - name: "微软服务"
     type: "select"
-    proxies: ["全局直连", "节点选择", "延迟选优", "美国节点优选"]
+    proxies: ["节点选择", "全局直连", "延迟选优", "美国节点优选"]
     include-all: true
     interval: 300
     timeout: 3000
