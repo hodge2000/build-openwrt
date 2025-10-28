@@ -31,8 +31,6 @@ dns:
     - "https://1.1.1.1/dns-query"
     - "https://9.9.9.9/dns-query"
   nameserver:
-    - "https://doh.pub/dns-query"      # 腾讯 DoH
-    - "https://dns.alidns.com/dns-query"  # 阿里 DoH
     - "https://208.67.222.222/dns-query"
     - "https://77.88.8.8/dns-query"
     - "https://1.1.1.1/dns-query"
